@@ -1,0 +1,205 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+*{
+    margin:0;
+}
+body {
+
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    background: rgb(255, 255, 255);
+}
+
+#introduction{
+ width: 100%;
+ margin-bottom: 50px;
+}
+
+ 
+h1.i {
+ padding-top: 60px;
+ padding-bottom: 12px;
+ font-size: 58px; /* Размер шрифта */
+ font-weight: 550;
+ color: #000000; /* Цвет текста */
+}
+
+h2.i {
+ color: #000000;
+ font-weight: 200;
+ align: center;
+}
+h5{
+ font-family: 'Source Code Pro', monospace;
+ font-size: 17px;
+}
+.forest{
+ display: block;
+ margin: auto;
+ 
+}
+     
+
+#header { /* Верхний блок */
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ background: #464451; /* Цвет фона */
+ width: 100%;
+ height: 50px;
+ opacity: 1;
+}
+.menu{
+    width: 60%;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item{
+ font-family: "Courier New", Courier, monospace;
+ font-size: 18px;
+ letter-spacing: 0.4px;
+ word-spacing: -2.2px;
+ color: #FFFFFF;
+ font-weight: normal;
+ text-decoration: none;
+ font-style: normal;
+ font-variant: normal;
+ text-transform: none;
+}
+
+
+
+h1.m {
+    font-size: 52px; /* Размер шрифта */
+    color: #ffffff; /* Цвет текста */
+    align: center;
+    padding-top: 80px;
+}
+
+#main-part{
+    background: rgb(52, 40, 60);
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.textInMainPart{
+    width: 80%;
+    padding: 50px 0 0px 36px;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.pau{
+    padding: 50px 50px 0 0;
+
+}
+
+#project{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    background: rgb(242,242,242);
+}
+.projectFirst{
+    padding: 80px 0 0 150px;
+}
+.disc{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 52, 23);
+    padding: 140px 100px 0 110px;
+}
+
+
+
+.projectNext{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    background: rgb(242,242,242);
+}
+.projectFirstNext{
+    padding: 0px 0 0 50px;
+}
+.discNext{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 52, 23);
+    padding: 100px 50px 0 150px;
+}
+
+
+
+#footer { /* Нижний блок */
+background: rgb(242,242,242); /* Цвет фона */
+color: #3a3a3a99; /* Цвет текста */
+width: 100%;
+height: 160px;
+opacity: .8;
+
+}
+
+.last{
+    margin: 40px 10% 5px 10%;
+    border: 1px solid #393939;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+
+
+.footer-p{
+    margin-left: 10% ;
+    margin-bottom: 20px;
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+
+a:hover{
+    color: #bababa;
+}
+
+.king{
+    padding-left: 10%;
+}
+
+.social a {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
