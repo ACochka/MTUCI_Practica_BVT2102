@@ -1,5 +1,21 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
+.social a {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
 
 *{
     margin:0;
@@ -92,7 +108,7 @@ h1.m {
 
 .textInMainPart{
     width: 80%;
-    padding: 50px 0 0px 36px;
+    padding: 50px 0 0px 55px;
     color: #ffffff;
     line-height: 40px;
     font-size: 30px;
@@ -131,19 +147,19 @@ h1.m {
 .projectNext{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     width: 100%;
     height: auto;
     background: rgb(242,242,242);
 }
 .projectFirstNext{
-    padding: 0px 0 0 50px;
+    padding: 0px 0 0 100px;
 }
 .discNext{
     font-size: 25px;
     font-weight: 600;
     color: rgb(0, 52, 23);
-    padding: 100px 50px 0 150px;
+    padding: 100px 0 0 0px;
 }
 
 
@@ -185,21 +201,3 @@ a:hover{
 .king{
     padding-left: 10%;
 }
-
-.social a {
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    float: left;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
-    border-radius: 24px;
-    margin: 0 10px 10px 0;
-    padding: 6px;
-    color: #000;
-}
-.github a:hover {background: #191919; color: #fff;}
-.instagram a:hover {background: #3f729b; color: #fff;}
-.vk a:hover {background: #5d84ae; color: #fff;}
-.telegram a:hover {background: #249bd7; color: #fff;}
